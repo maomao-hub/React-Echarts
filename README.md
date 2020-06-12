@@ -1,4 +1,4 @@
-[toc]
+forked from https://github.com/Billiballa/grafana-echarts
 
 # Grafana Apache Echarts Panel
 

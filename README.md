@@ -1,4 +1,6 @@
-forked from https://github.com/Billiballa/grafana-echarts
+forked from 
+- https://github.com/grafana/simple-react-panel
+- https://github.com/Billiballa/grafana-echarts
 
 # Grafana Apache Echarts Panel
 

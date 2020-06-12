@@ -1,0 +1,43 @@
+{
+  "name": "bilibala-grafana-echarts",
+  "version": "2.2.1",
+  "description": "Echarts panel for grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "docker": "docker run -d -p 3000:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
+    "docker:v6": "docker run -d -p 3001:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.7.3"
+  },
+  "repository": "github:Billiballa/grafana-echarts",
+  "author": "Bilibala",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Billiballa/grafana-echarts/issues",
+    "email": "wangqianxiang@outlook.com"
+  },
+  "devDependencies": {
+    "@grafana/data": "7.0.0",
+    "@grafana/toolkit": "7.0.0",
+    "@grafana/ui": "7.0.0",
+    "@types/codemirror": "^0.0.95",
+    "@types/echarts": "^4.6.0",
+    "@types/lodash": "^4.14.152",
+    "emotion": "^10.0.27"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "codemirror": "^5.54.0",
+    "echarts": "^4.8.0",
+    "echarts-gl": "^1.1.1",
+    "echarts-liquidfill": "^2.0.5",
+    "lodash": "^4.17.15"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.9.0"
+  },
+  "engines": {
+    "node": ">=12 <13"
+  }
+}

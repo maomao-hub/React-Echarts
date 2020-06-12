@@ -1,0 +1,34 @@
+{
+  "type": "panel",
+  "name": "Echarts-React",
+  "id": "boqian-echarts",
+  "info": {
+    "description": "Drawing graph with Apache Echarts lib",
+    "author": {
+      "name": "Boqian",
+      "url": ""
+    },
+    "keywords": ["echarts"],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": ""
+      },
+      {
+        "name": "License",
+        "url": "https://choosealicense.com/licenses/apache-2.0/"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}

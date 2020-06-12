@@ -1,0 +1,29 @@
+.reportButton {
+  background-color: #4e0000; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 20px;
+  width: 100;
+}
+
+.themeButton {
+  background-color: #0a463c; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 20px;
+  width: 100;
+}

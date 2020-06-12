@@ -1,3 +1,5 @@
+[toc]
+
 # Grafana Apache Echarts Panel
 
 - Using Apache Echarts to draw graphes in Grafana.
